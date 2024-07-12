@@ -5,6 +5,7 @@
         public int IdCompra { get; set; }
         public double Distancia { get; set; }
         public Cliente Cliente { get; set; }
+        public Produto Produto { get; set; }
         public List<Produto> Produtos { get; set; }
     }
 }
