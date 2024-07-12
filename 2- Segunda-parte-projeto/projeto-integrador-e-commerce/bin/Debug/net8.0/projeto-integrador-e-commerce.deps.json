@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "projeto-integrador-e-commerce/1.0.0": {
+        "runtime": {
+          "projeto-integrador-e-commerce.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "projeto-integrador-e-commerce/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,14 @@
+C:\Users\vithor.silva\source\repos\projeto-integrador-e-commerce\bin\Debug\net8.0\projeto-integrador-e-commerce.exe
+C:\Users\vithor.silva\source\repos\projeto-integrador-e-commerce\bin\Debug\net8.0\projeto-integrador-e-commerce.deps.json
+C:\Users\vithor.silva\source\repos\projeto-integrador-e-commerce\bin\Debug\net8.0\projeto-integrador-e-commerce.runtimeconfig.json
+C:\Users\vithor.silva\source\repos\projeto-integrador-e-commerce\bin\Debug\net8.0\projeto-integrador-e-commerce.dll
+C:\Users\vithor.silva\source\repos\projeto-integrador-e-commerce\bin\Debug\net8.0\projeto-integrador-e-commerce.pdb
+C:\Users\vithor.silva\source\repos\projeto-integrador-e-commerce\obj\Debug\net8.0\projeto-integrador-e-commerce.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vithor.silva\source\repos\projeto-integrador-e-commerce\obj\Debug\net8.0\projeto-integrador-e-commerce.AssemblyInfoInputs.cache
+C:\Users\vithor.silva\source\repos\projeto-integrador-e-commerce\obj\Debug\net8.0\projeto-integrador-e-commerce.AssemblyInfo.cs
+C:\Users\vithor.silva\source\repos\projeto-integrador-e-commerce\obj\Debug\net8.0\projeto-integrador-e-commerce.csproj.CoreCompileInputs.cache
+C:\Users\vithor.silva\source\repos\projeto-integrador-e-commerce\obj\Debug\net8.0\projeto-integrador-e-commerce.dll
+C:\Users\vithor.silva\source\repos\projeto-integrador-e-commerce\obj\Debug\net8.0\refint\projeto-integrador-e-commerce.dll
+C:\Users\vithor.silva\source\repos\projeto-integrador-e-commerce\obj\Debug\net8.0\projeto-integrador-e-commerce.pdb
+C:\Users\vithor.silva\source\repos\projeto-integrador-e-commerce\obj\Debug\net8.0\projeto-integrador-e-commerce.genruntimeconfig.cache
+C:\Users\vithor.silva\source\repos\projeto-integrador-e-commerce\obj\Debug\net8.0\ref\projeto-integrador-e-commerce.dll
