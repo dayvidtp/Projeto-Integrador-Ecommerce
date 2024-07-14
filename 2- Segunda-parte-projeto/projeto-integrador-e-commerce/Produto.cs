@@ -2,53 +2,55 @@
 {
     public class Produto
     {
-        public int IdProduto { get; set; }
-        public string NomeProduto { get; set; }
+        public int Id { get; set; }
+        public string Nome { get; set; }
         public string Marca { get; set; }
         public double Preco { get; set; }
         public double Peso { get; set; }
         public int Quantidade { get; set; }
 
+        public Produto() {}
 
-        public Produto(int idProduto, string nomeProduto, string marca, double preco, double peso, int quantidade)
+        public Produto(int id, string nome, string marca, double preco, double peso, int quantidade)
         {
-            IdProduto = idProduto;
-            NomeProduto = nomeProduto;
+            Id = id;
+            Nome = nome;
             Marca = marca;
             Preco = preco;
             Peso = peso;
             Quantidade = quantidade;
         }
+
         public static void CadastrarProduto()
         {
             Console.Write("Informe o nome do produto: ");
             string nome = Console.ReadLine();
-            Produto produto4 = new Produto();
-            produto4.NomeProduto = nome;
+            Produto novoProduto = new Produto();
+            novoProduto.Nome = nome;
 
-            produto4.IdProduto = 4;
+            novoProduto.Id = 4;
 
             Console.Write("Informe a marca: ");
             string marca = Console.ReadLine();
-            produto4.Marca = marca;
+            novoProduto.Marca = marca;
 
             Console.Write("Informe o preço: ");
             double preco = double.Parse(Console.ReadLine());
 
-            produto4.Preco = preco;
+            novoProduto.Preco = preco;
 
-            produto4.Peso = 2.8;
+            novoProduto.Peso = 2.8;
 
             Console.Write("Informe a quantidade: ");
             int quantidade = int.Parse(Console.ReadLine());
-            produto4.Quantidade = quantidade;
+            novoProduto.Quantidade = quantidade;
             
             Console.WriteLine("");
-            Console.WriteLine($"Nome do produto: {produto4.NomeProduto}");
-            Console.WriteLine($"Marca do produto: {produto4.Marca}");
-            Console.WriteLine($"Preço do produto: {produto4.Preco}");
-            Console.WriteLine($"Quantidade: {produto4.Quantidade}");     
+            Console.WriteLine($"Nome do produto: {novoProduto.Nome}");
+            Console.WriteLine($"Marca do produto: {novoProduto.Marca}");
+            Console.WriteLine($"Preço do produto: {novoProduto.Preco}");
+            Console.WriteLine($"Quantidade: {novoProduto.Quantidade}");     
         }
-        }
+        
     }
 }

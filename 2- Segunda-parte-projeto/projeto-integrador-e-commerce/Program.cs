@@ -1,4 +1,7 @@
-﻿using System.Security.Cryptography.X509Certificates;
+﻿using System.Collections;
+using System.Data.Common;
+using System.Diagnostics;
+using System.Security.Cryptography.X509Certificates;
 
 namespace projeto_integrador_e_commerce
 {
@@ -6,9 +9,32 @@ namespace projeto_integrador_e_commerce
     {
         static void Main(string[] args)
         {
-            Produto produto1 = new Produto(1, "Notebook", "Samsung", 3.500, 5, 10);
-            Produto produto2 = new Produto(2, "Redmi Note 13", "Xiaomi", 1.300, 0.800, 15);
-            Produto produto3 = new Produto(3, "Iphone 15", "Apple", 12.000, 1.2, 2);
+            //Adicionando clientes
+            Cliente cliente1 = new Cliente(1, "José Luis");
+            Cliente cliente2 = new Cliente(2, "Fernando Souza");
+            Cliente cliente3 = new Cliente(3, "Mario Oliveira");
+
+            //Adicionando produtos ao estoque
+            Produto produto1 = new Produto(1, "Fone de Ouvido", "JBL", 150.00, 30.00, 2);
+            Produto produto2 = new Produto(2, "Teclado", "Positivo", 80.00, 300.00, 6);
+            Produto produto3 = new Produto(3, "Mouse", "Asus", 50.00, 80.00, 4);
+
+            //Adicionando compras à alguns clientes
+            Compra compra1 = new Compra(1, 495.00, cliente3);
+            compra1.Produtos.Add(produto1);
+            produto1.Quantidade--;
+
+            Compra compra2 = new Compra();
+            compra2.Id = 2;
+            compra2.Distancia = 558.00;
+            compra2.Cliente = cliente2;
+            compra2.Produtos.Add(produto2);
+            produto2.Quantidade--;
+
+            
+            Compra compra3 = new Compra(3, 780.00, cliente1);
+            compra3.Produtos.Add(produto3);
+            produto3.Quantidade--;
 
             Console.Write("Olá usuário, você gostaria de:");
             Console.WriteLine(" ");    
@@ -24,7 +50,7 @@ namespace projeto_integrador_e_commerce
             }
             else if (resposta == 2) //Calcular frete
             {
-                Console.WriteLine("Deu errado");
+                //Compra.CalcularFrete();
             }
         }
     }

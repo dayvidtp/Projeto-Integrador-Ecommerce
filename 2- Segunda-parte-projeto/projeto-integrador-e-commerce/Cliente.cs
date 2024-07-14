@@ -2,7 +2,17 @@
 {
     public class Cliente
     {
-        public int IdCliente { get; set; }
-        public string NomeCliente  { get; set; }
+        public int Id { get; set; }
+        public string Nome  { get; set; }
+
+        public Cliente() {}
+
+         public Cliente(int id, string nome)
+        {
+            Id = id;
+            Nome = nome;
+        }
     }
+
+   
 }
