@@ -51,6 +51,32 @@ namespace projeto_integrador_e_commerce
             else if (resposta == 2) //Calcular frete
             {
                 //Compra.CalcularFrete();
+                Console.WriteLine();
+                Console.Write("Qual compra deseja calcular? ");
+                Console.WriteLine(compra1.Id + ": ");
+                Console.WriteLine(compra1.Produtos[0].Nome);
+
+                Console.WriteLine();
+                Console.WriteLine(compra2.Id + ": ");
+                Console.WriteLine(compra2.Produtos[0].Nome);
+
+                Console.WriteLine();
+                Console.WriteLine(compra3.Id + ": ");
+                Console.WriteLine(compra3.Produtos[0].Nome);
+
+                Console.WriteLine();
+                int compraEscolhida = int.Parse(Console.ReadLine());
+                if (compraEscolhida == 1)
+                {
+                    /*F = D * (0.1 * p) / (P * 0.1) * Q
+                    F: Frete (R$)
+                    D: Distância (km)
+                    p: Peso (kg)
+                    P: Preço (R$)
+                    Q: Quantidade*/
+                    double frete = compra1.Distancia * (0.1 * produto1.Peso) / (produto1.Preco * 0.1) * 1;
+                }
+                List<Produto> Produtos = new List<Produto>{produto1};
             }
         }
     }

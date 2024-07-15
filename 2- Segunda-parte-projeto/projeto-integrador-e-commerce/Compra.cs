@@ -17,5 +17,11 @@ namespace projeto_integrador_e_commerce
             Distancia = distancia;
             Cliente = cliente;
         }
+
+        public void CalcularFrete()
+        {
+
+            
+        }
     }
 }
