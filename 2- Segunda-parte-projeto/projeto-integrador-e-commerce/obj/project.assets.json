@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\dayvi\\.nuget\\packages\\": {}
+    "C:\\Users\\flatz\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dayvi\\OneDrive\\Documentos\\Cursos de Programação\\Senac\\Projeto_integrador\\Projeto-Integrador-Ecommerce\\2- Segunda-parte-projeto\\projeto-integrador-e-commerce\\projeto-integrador-e-commerce.csproj",
+      "projectUniqueName": "C:\\Users\\flatz\\Downloads\\Projeto-Integrador-Ecommerce\\2- Segunda-parte-projeto\\projeto-integrador-e-commerce\\projeto-integrador-e-commerce.csproj",
       "projectName": "projeto-integrador-e-commerce",
-      "projectPath": "C:\\Users\\dayvi\\OneDrive\\Documentos\\Cursos de Programação\\Senac\\Projeto_integrador\\Projeto-Integrador-Ecommerce\\2- Segunda-parte-projeto\\projeto-integrador-e-commerce\\projeto-integrador-e-commerce.csproj",
-      "packagesPath": "C:\\Users\\dayvi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dayvi\\OneDrive\\Documentos\\Cursos de Programação\\Senac\\Projeto_integrador\\Projeto-Integrador-Ecommerce\\2- Segunda-parte-projeto\\projeto-integrador-e-commerce\\obj\\",
+      "projectPath": "C:\\Users\\flatz\\Downloads\\Projeto-Integrador-Ecommerce\\2- Segunda-parte-projeto\\projeto-integrador-e-commerce\\projeto-integrador-e-commerce.csproj",
+      "packagesPath": "C:\\Users\\flatz\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\flatz\\Downloads\\Projeto-Integrador-Ecommerce\\2- Segunda-parte-projeto\\projeto-integrador-e-commerce\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\dayvi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\flatz\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -66,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

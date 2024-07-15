@@ -19,30 +19,31 @@ namespace projeto_integrador_e_commerce
             Produto produto2 = new Produto(2, "Teclado", "Positivo", 80.00, 300.00, 6);
             Produto produto3 = new Produto(3, "Mouse", "Asus", 50.00, 80.00, 4);
 
+
+            List<Produto> produtos = new List<Produto> { produto1, produto2, produto3 };
+
+
             //Adicionando compras à alguns clientes
             Compra compra1 = new Compra(1, 495.00, cliente3);
-            compra1.Produtos.Add(produto1);
-            produto1.Quantidade--;
+
 
             Compra compra2 = new Compra();
             compra2.Id = 2;
             compra2.Distancia = 558.00;
             compra2.Cliente = cliente2;
-            compra2.Produtos.Add(produto2);
-            produto2.Quantidade--;
 
             
             Compra compra3 = new Compra(3, 780.00, cliente1);
-            compra3.Produtos.Add(produto3);
-            produto3.Quantidade--;
 
             Console.Write("Olá usuário, você gostaria de:");
             Console.WriteLine(" ");    
             Console.WriteLine("1 - Casdastrar itens no estoque?");
             Console.WriteLine("2 - Calcular frete de um produto?");
+            Console.WriteLine("3 - Efetuar uma compra? ");
             Console.WriteLine(" ");
             Console.WriteLine("Digite um número correspondente a pergunta para responder");
             int resposta = int.Parse(Console.ReadLine());
+
             
             if (resposta == 1) //Cadastrar itens no estoque
             {
@@ -67,17 +68,20 @@ namespace projeto_integrador_e_commerce
                 Console.WriteLine();
                 int compraEscolhida = int.Parse(Console.ReadLine());
                 if (compraEscolhida == 1)
-                {
-                    /*F = D * (0.1 * p) / (P * 0.1) * Q
-                    F: Frete (R$)
-                    D: Distância (km)
-                    p: Peso (kg)
-                    P: Preço (R$)
-                    Q: Quantidade*/
-                    double frete = compra1.Distancia * (0.1 * produto1.Peso) / (produto1.Preco * 0.1) * 1;
+                    {
+                        /*F = D * (0.1 * p) / (P * 0.1) * Q
+                        F: Frete (R$)
+                        D: Distância (km)
+                        p: Peso (kg)
+                        P: Preço (R$)
+                        Q: Quantidade*/
+                        double frete = compra1.Distancia * (0.1 * produto1.Peso) / (produto1.Preco * 0.1) * 1;
+                    }
                 }
-                List<Produto> Produtos = new List<Produto>{produto1};
-            }
+                if (resposta == 3)
+                {
+                    compra1.EfetuarCompra(produtos);
+                }
         }
     }
 }

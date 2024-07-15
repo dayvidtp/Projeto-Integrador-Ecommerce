@@ -27,3 +27,18 @@ C:\Users\dayvi\OneDrive\Documentos\Cursos de Programação\Senac\Projeto_integra
 C:\Users\dayvi\OneDrive\Documentos\Cursos de Programação\Senac\Projeto_integrador\Projeto-Integrador-Ecommerce\2- Segunda-parte-projeto\projeto-integrador-e-commerce\obj\Debug\net8.0\projeto-integrador-e-commerce.pdb
 C:\Users\dayvi\OneDrive\Documentos\Cursos de Programação\Senac\Projeto_integrador\Projeto-Integrador-Ecommerce\2- Segunda-parte-projeto\projeto-integrador-e-commerce\obj\Debug\net8.0\projeto-integrador-e-commerce.genruntimeconfig.cache
 C:\Users\dayvi\OneDrive\Documentos\Cursos de Programação\Senac\Projeto_integrador\Projeto-Integrador-Ecommerce\2- Segunda-parte-projeto\projeto-integrador-e-commerce\obj\Debug\net8.0\ref\projeto-integrador-e-commerce.dll
+C:\Users\flatz\Downloads\Projeto-Integrador-Ecommerce\2- Segunda-parte-projeto\projeto-integrador-e-commerce\bin\Debug\net8.0\projeto-integrador-e-commerce.exe
+C:\Users\flatz\Downloads\Projeto-Integrador-Ecommerce\2- Segunda-parte-projeto\projeto-integrador-e-commerce\bin\Debug\net8.0\projeto-integrador-e-commerce.deps.json
+C:\Users\flatz\Downloads\Projeto-Integrador-Ecommerce\2- Segunda-parte-projeto\projeto-integrador-e-commerce\bin\Debug\net8.0\projeto-integrador-e-commerce.runtimeconfig.json
+C:\Users\flatz\Downloads\Projeto-Integrador-Ecommerce\2- Segunda-parte-projeto\projeto-integrador-e-commerce\bin\Debug\net8.0\projeto-integrador-e-commerce.dll
+C:\Users\flatz\Downloads\Projeto-Integrador-Ecommerce\2- Segunda-parte-projeto\projeto-integrador-e-commerce\bin\Debug\net8.0\projeto-integrador-e-commerce.pdb
+C:\Users\flatz\Downloads\Projeto-Integrador-Ecommerce\2- Segunda-parte-projeto\projeto-integrador-e-commerce\obj\Debug\net8.0\projeto-integrador-e-commerce.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\flatz\Downloads\Projeto-Integrador-Ecommerce\2- Segunda-parte-projeto\projeto-integrador-e-commerce\obj\Debug\net8.0\projeto-integrador-e-commerce.AssemblyInfoInputs.cache
+C:\Users\flatz\Downloads\Projeto-Integrador-Ecommerce\2- Segunda-parte-projeto\projeto-integrador-e-commerce\obj\Debug\net8.0\projeto-integrador-e-commerce.AssemblyInfo.cs
+C:\Users\flatz\Downloads\Projeto-Integrador-Ecommerce\2- Segunda-parte-projeto\projeto-integrador-e-commerce\obj\Debug\net8.0\projeto-integrador-e-commerce.csproj.CoreCompileInputs.cache
+C:\Users\flatz\Downloads\Projeto-Integrador-Ecommerce\2- Segunda-parte-projeto\projeto-integrador-e-commerce\obj\Debug\net8.0\projeto-integrador-e-commerce.sourcelink.json
+C:\Users\flatz\Downloads\Projeto-Integrador-Ecommerce\2- Segunda-parte-projeto\projeto-integrador-e-commerce\obj\Debug\net8.0\projeto-integrador-e-commerce.dll
+C:\Users\flatz\Downloads\Projeto-Integrador-Ecommerce\2- Segunda-parte-projeto\projeto-integrador-e-commerce\obj\Debug\net8.0\refint\projeto-integrador-e-commerce.dll
+C:\Users\flatz\Downloads\Projeto-Integrador-Ecommerce\2- Segunda-parte-projeto\projeto-integrador-e-commerce\obj\Debug\net8.0\projeto-integrador-e-commerce.pdb
+C:\Users\flatz\Downloads\Projeto-Integrador-Ecommerce\2- Segunda-parte-projeto\projeto-integrador-e-commerce\obj\Debug\net8.0\projeto-integrador-e-commerce.genruntimeconfig.cache
+C:\Users\flatz\Downloads\Projeto-Integrador-Ecommerce\2- Segunda-parte-projeto\projeto-integrador-e-commerce\obj\Debug\net8.0\ref\projeto-integrador-e-commerce.dll

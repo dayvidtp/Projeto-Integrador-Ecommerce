@@ -1,4 +1,5 @@
-﻿using System.Security.AccessControl;
+﻿using System.ComponentModel;
+using System.Security.AccessControl;
 
 namespace projeto_integrador_e_commerce
 {
@@ -16,6 +17,34 @@ namespace projeto_integrador_e_commerce
             Id = id;
             Distancia = distancia;
             Cliente = cliente;
+        }
+
+        public void EfetuarCompra(List<Produto> produtos)
+        {
+            Console.Write("Informe seu nome: ");
+            string nome = Console.ReadLine();
+            int id = 5;
+            Cliente novoClienteCompra = new Cliente(id, nome);
+
+   
+
+            Console.WriteLine($"Seja Bem vindo(a ) {nome}, escolha qual produto deseja comprar: ");
+
+             int num1 = 1;
+
+
+            foreach (Produto produto in produtos)
+            {
+                Console.WriteLine($"{num1} {produto}");
+                num1++;
+    
+            }
+            Console.Write("Digite o numero: ");
+            int resposta = int.Parse(Console.ReadLine());
+            Console.WriteLine(resposta);
+            Console.Write("Digite a quantidade: ");
+            int quantidadeCompra = int.Parse(Console.ReadLine());
+
         }
 
         public void CalcularFrete()

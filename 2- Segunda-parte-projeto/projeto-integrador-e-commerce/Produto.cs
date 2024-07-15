@@ -50,7 +50,14 @@
             Console.WriteLine($"Marca do produto: {novoProduto.Marca}");
             Console.WriteLine($"Preço do produto: {novoProduto.Preco}");
             Console.WriteLine($"Quantidade: {novoProduto.Quantidade}");     
-        }
         
+        
+          }
+        public override string ToString()
+        {
+
+            return $"Produto: {Nome} Preco: {Preco} Marca: {Marca}";
+        }
+
     }
 }
