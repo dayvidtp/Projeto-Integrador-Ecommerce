@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\vithor.silva\\.nuget\\packages\\": {}
+    "C:\\Users\\flatz\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vithor.silva\\source\\repos\\projeto-integrador-e-commerce\\projeto-integrador-e-commerce.csproj",
+      "projectUniqueName": "C:\\Users\\flatz\\Downloads\\Projeto-Integrador-Ecommerce\\2- Segunda-parte-projeto\\projeto-integrador-e-commerce\\projeto-integrador-e-commerce.csproj",
       "projectName": "projeto-integrador-e-commerce",
-      "projectPath": "C:\\Users\\vithor.silva\\source\\repos\\projeto-integrador-e-commerce\\projeto-integrador-e-commerce.csproj",
-      "packagesPath": "C:\\Users\\vithor.silva\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vithor.silva\\source\\repos\\projeto-integrador-e-commerce\\obj\\",
+      "projectPath": "C:\\Users\\flatz\\Downloads\\Projeto-Integrador-Ecommerce\\2- Segunda-parte-projeto\\projeto-integrador-e-commerce\\projeto-integrador-e-commerce.csproj",
+      "packagesPath": "C:\\Users\\flatz\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\flatz\\Downloads\\Projeto-Integrador-Ecommerce\\2- Segunda-parte-projeto\\projeto-integrador-e-commerce\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\vithor.silva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\flatz\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
