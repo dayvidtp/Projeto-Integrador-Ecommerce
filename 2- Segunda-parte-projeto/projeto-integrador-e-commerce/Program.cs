@@ -98,7 +98,7 @@ namespace projeto_integrador_e_commerce
             }
             catch(OverflowException ex)
             {
-                Console.WriteLine("Voce digitou um número muito grande " + ex.Message);
+                Console.WriteLine("Voce digitou um número muito grande nome do erro: " + ex.Message);
             }
          }
     }
