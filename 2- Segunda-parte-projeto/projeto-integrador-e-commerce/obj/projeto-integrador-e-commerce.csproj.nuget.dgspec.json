@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vithor.silva\\source\\repos\\projeto-integrador-e-commerce\\projeto-integrador-e-commerce.csproj": {}
+    "C:\\Users\\igor.melo1\\Projeto-Integrador-Ecomerce\\Projeto-Integrador-Ecommerce\\2- Segunda-parte-projeto\\projeto-integrador-e-commerce\\projeto-integrador-e-commerce.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vithor.silva\\source\\repos\\projeto-integrador-e-commerce\\projeto-integrador-e-commerce.csproj": {
+    "C:\\Users\\igor.melo1\\Projeto-Integrador-Ecomerce\\Projeto-Integrador-Ecommerce\\2- Segunda-parte-projeto\\projeto-integrador-e-commerce\\projeto-integrador-e-commerce.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vithor.silva\\source\\repos\\projeto-integrador-e-commerce\\projeto-integrador-e-commerce.csproj",
+        "projectUniqueName": "C:\\Users\\igor.melo1\\Projeto-Integrador-Ecomerce\\Projeto-Integrador-Ecommerce\\2- Segunda-parte-projeto\\projeto-integrador-e-commerce\\projeto-integrador-e-commerce.csproj",
         "projectName": "projeto-integrador-e-commerce",
-        "projectPath": "C:\\Users\\vithor.silva\\source\\repos\\projeto-integrador-e-commerce\\projeto-integrador-e-commerce.csproj",
-        "packagesPath": "C:\\Users\\vithor.silva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vithor.silva\\source\\repos\\projeto-integrador-e-commerce\\obj\\",
+        "projectPath": "C:\\Users\\igor.melo1\\Projeto-Integrador-Ecomerce\\Projeto-Integrador-Ecommerce\\2- Segunda-parte-projeto\\projeto-integrador-e-commerce\\projeto-integrador-e-commerce.csproj",
+        "packagesPath": "C:\\Users\\igor.melo1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\igor.melo1\\Projeto-Integrador-Ecomerce\\Projeto-Integrador-Ecommerce\\2- Segunda-parte-projeto\\projeto-integrador-e-commerce\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\vithor.silva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\igor.melo1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,6 +44,22 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.10.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

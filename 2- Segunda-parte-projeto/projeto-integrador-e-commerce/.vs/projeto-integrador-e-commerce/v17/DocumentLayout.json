@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\vithor.silva\\source\\repos\\projeto-integrador-e-commerce\\",
+  "WorkspaceRootPath": "C:\\Users\\igor.melo1\\Projeto-Integrador-Ecomerce\\Projeto-Integrador-Ecommerce\\2- Segunda-parte-projeto\\projeto-integrador-e-commerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8ACFBB2A-B3DC-4E57-9A83-28573EC87638}|projeto-integrador-e-commerce.csproj|c:\\users\\vithor.silva\\source\\repos\\projeto-integrador-e-commerce\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ACFBB2A-B3DC-4E57-9A83-28573EC87638}|projeto-integrador-e-commerce.csproj|solutionrelative:cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8ACFBB2A-B3DC-4E57-9A83-28573EC87638}|projeto-integrador-e-commerce.csproj|c:\\users\\igor.melo1\\projeto-integrador-ecomerce\\projeto-integrador-ecommerce\\2- segunda-parte-projeto\\projeto-integrador-e-commerce\\testes\\teste_compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ACFBB2A-B3DC-4E57-9A83-28573EC87638}|projeto-integrador-e-commerce.csproj|solutionrelative:testes\\teste_compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8ACFBB2A-B3DC-4E57-9A83-28573EC87638}|projeto-integrador-e-commerce.csproj|c:\\users\\vithor.silva\\source\\repos\\projeto-integrador-e-commerce\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ACFBB2A-B3DC-4E57-9A83-28573EC87638}|projeto-integrador-e-commerce.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8ACFBB2A-B3DC-4E57-9A83-28573EC87638}|projeto-integrador-e-commerce.csproj|c:\\users\\vithor.silva\\source\\repos\\projeto-integrador-e-commerce\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8ACFBB2A-B3DC-4E57-9A83-28573EC87638}|projeto-integrador-e-commerce.csproj|c:\\users\\igor.melo1\\projeto-integrador-ecomerce\\projeto-integrador-ecommerce\\2- segunda-parte-projeto\\projeto-integrador-e-commerce\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8ACFBB2A-B3DC-4E57-9A83-28573EC87638}|projeto-integrador-e-commerce.csproj|solutionrelative:compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8ACFBB2A-B3DC-4E57-9A83-28573EC87638}|projeto-integrador-e-commerce.csproj|c:\\users\\vithor.silva\\source\\repos\\projeto-integrador-e-commerce\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8ACFBB2A-B3DC-4E57-9A83-28573EC87638}|projeto-integrador-e-commerce.csproj|c:\\users\\igor.melo1\\projeto-integrador-ecomerce\\projeto-integrador-ecommerce\\2- segunda-parte-projeto\\projeto-integrador-e-commerce\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8ACFBB2A-B3DC-4E57-9A83-28573EC87638}|projeto-integrador-e-commerce.csproj|solutionrelative:produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ACFBB2A-B3DC-4E57-9A83-28573EC87638}|projeto-integrador-e-commerce.csproj|c:\\users\\igor.melo1\\projeto-integrador-ecomerce\\projeto-integrador-ecommerce\\2- segunda-parte-projeto\\projeto-integrador-e-commerce\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ACFBB2A-B3DC-4E57-9A83-28573EC87638}|projeto-integrador-e-commerce.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ACFBB2A-B3DC-4E57-9A83-28573EC87638}|projeto-integrador-e-commerce.csproj|c:\\users\\igor.melo1\\projeto-integrador-ecomerce\\projeto-integrador-ecommerce\\2- segunda-parte-projeto\\projeto-integrador-e-commerce\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ACFBB2A-B3DC-4E57-9A83-28573EC87638}|projeto-integrador-e-commerce.csproj|solutionrelative:cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,17 +30,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\vithor.silva\\source\\repos\\projeto-integrador-e-commerce\\Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\igor.melo1\\Projeto-Integrador-Ecomerce\\Projeto-Integrador-Ecommerce\\2- Segunda-parte-projeto\\projeto-integrador-e-commerce\\Cliente.cs",
               "RelativeDocumentMoniker": "Cliente.cs",
-              "ToolTip": "C:\\Users\\vithor.silva\\source\\repos\\projeto-integrador-e-commerce\\Cliente.cs",
+              "ToolTip": "C:\\Users\\igor.melo1\\Projeto-Integrador-Ecomerce\\Projeto-Integrador-Ecommerce\\2- Segunda-parte-projeto\\projeto-integrador-e-commerce\\Cliente.cs",
               "RelativeToolTip": "Cliente.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-10T18:45:20.452Z",
               "EditorCaption": ""
@@ -44,45 +48,54 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Compra.cs",
-              "DocumentMoniker": "C:\\Users\\vithor.silva\\source\\repos\\projeto-integrador-e-commerce\\Compra.cs",
-              "RelativeDocumentMoniker": "Compra.cs",
-              "ToolTip": "C:\\Users\\vithor.silva\\source\\repos\\projeto-integrador-e-commerce\\Compra.cs",
-              "RelativeToolTip": "Compra.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\igor.melo1\\Projeto-Integrador-Ecomerce\\Projeto-Integrador-Ecommerce\\2- Segunda-parte-projeto\\projeto-integrador-e-commerce\\Produto.cs",
+              "RelativeDocumentMoniker": "Produto.cs",
+              "ToolTip": "C:\\Users\\igor.melo1\\Projeto-Integrador-Ecomerce\\Projeto-Integrador-Ecommerce\\2- Segunda-parte-projeto\\projeto-integrador-e-commerce\\Produto.cs",
+              "RelativeToolTip": "Produto.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAA8wDMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T18:44:58.452Z",
+              "WhenOpened": "2024-07-15T17:57:25.486Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Produto.cs",
-              "DocumentMoniker": "C:\\Users\\vithor.silva\\source\\repos\\projeto-integrador-e-commerce\\Produto.cs",
-              "RelativeDocumentMoniker": "Produto.cs",
-              "ToolTip": "C:\\Users\\vithor.silva\\source\\repos\\projeto-integrador-e-commerce\\Produto.cs",
-              "RelativeToolTip": "Produto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\igor.melo1\\Projeto-Integrador-Ecomerce\\Projeto-Integrador-Ecommerce\\2- Segunda-parte-projeto\\projeto-integrador-e-commerce\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\igor.melo1\\Projeto-Integrador-Ecomerce\\Projeto-Integrador-Ecommerce\\2- Segunda-parte-projeto\\projeto-integrador-e-commerce\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T18:43:45.455Z",
+              "WhenOpened": "2024-07-15T19:29:46.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Teste_Compra.cs",
+              "DocumentMoniker": "C:\\Users\\igor.melo1\\Projeto-Integrador-Ecomerce\\Projeto-Integrador-Ecommerce\\2- Segunda-parte-projeto\\projeto-integrador-e-commerce\\testes\\Teste_Compra.cs",
+              "RelativeDocumentMoniker": "testes\\Teste_Compra.cs",
+              "ToolTip": "C:\\Users\\igor.melo1\\Projeto-Integrador-Ecomerce\\Projeto-Integrador-Ecommerce\\2- Segunda-parte-projeto\\projeto-integrador-e-commerce\\testes\\Teste_Compra.cs*",
+              "RelativeToolTip": "testes\\Teste_Compra.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T17:42:00.951Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\vithor.silva\\source\\repos\\projeto-integrador-e-commerce\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\vithor.silva\\source\\repos\\projeto-integrador-e-commerce\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Title": "Compra.cs",
+              "DocumentMoniker": "C:\\Users\\igor.melo1\\Projeto-Integrador-Ecomerce\\Projeto-Integrador-Ecommerce\\2- Segunda-parte-projeto\\projeto-integrador-e-commerce\\Compra.cs",
+              "RelativeDocumentMoniker": "Compra.cs",
+              "ToolTip": "C:\\Users\\igor.melo1\\Projeto-Integrador-Ecomerce\\Projeto-Integrador-Ecommerce\\2- Segunda-parte-projeto\\projeto-integrador-e-commerce\\Compra.cs",
+              "RelativeToolTip": "Compra.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA7wBkAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T18:43:06.726Z",
+              "WhenOpened": "2024-07-10T18:44:58.452Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
