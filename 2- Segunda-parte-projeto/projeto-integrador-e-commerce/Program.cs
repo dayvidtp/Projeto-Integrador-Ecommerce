@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Data.Common;
 using System.Diagnostics;
+using System.Security.Cryptography;
 using System.Security.Cryptography.X509Certificates;
-
+ 
 namespace projeto_integrador_e_commerce
 {
     internal class Program
@@ -19,32 +20,30 @@ namespace projeto_integrador_e_commerce
             Produto produto2 = new Produto(2, "Teclado", "Positivo", 80.00, 300.00, 6);
             Produto produto3 = new Produto(3, "Mouse", "Asus", 50.00, 80.00, 4);
 
-
-            List<Produto> produtos = new List<Produto> { produto1, produto2, produto3 };
-
-
             //Adicionando compras à alguns clientes
-            Compra compra1 = new Compra(1, 495.00, cliente3);
+            Compra compra1 = new Compra(1, 495.00, cliente3, produto1, 2);
 
 
             Compra compra2 = new Compra();
             compra2.Id = 2;
             compra2.Distancia = 558.00;
             compra2.Cliente = cliente2;
+            compra2.Produto = produto2;
+            compra2.Quantidade = 1;
 
-            
-            Compra compra3 = new Compra(3, 780.00, cliente1);
+            List<Produto> produtos = new List<Produto> { produto1, produto2, produto3 }; //Lista com os produtos
+
+            Compra compra3 = new Compra(3, 780.00, cliente1, produto3, 3);
+
 
             Console.Write("Olá usuário, você gostaria de:");
-            Console.WriteLine(" ");    
+            Console.WriteLine(" ");
             Console.WriteLine("1 - Casdastrar itens no estoque?");
             Console.WriteLine("2 - Calcular frete de um produto?");
-            Console.WriteLine("3 - Efetuar uma compra? ");
+            Console.WriteLine("3 - Efetuar uma compra?");
             Console.WriteLine(" ");
             Console.WriteLine("Digite um número correspondente a pergunta para responder");
             int resposta = int.Parse(Console.ReadLine());
-
-            
             if (resposta == 1) //Cadastrar itens no estoque
             {
                 Produto.CadastrarProduto();
@@ -53,35 +52,43 @@ namespace projeto_integrador_e_commerce
             {
                 //Compra.CalcularFrete();
                 Console.WriteLine();
-                Console.Write("Qual compra deseja calcular? ");
-                Console.WriteLine(compra1.Id + ": ");
-                Console.WriteLine(compra1.Produtos[0].Nome);
+                Console.WriteLine("Qual compra deseja calcular? ");
+                Console.WriteLine(compra1.Id + ": Fone de Ouvido");
+
 
                 Console.WriteLine();
-                Console.WriteLine(compra2.Id + ": ");
-                Console.WriteLine(compra2.Produtos[0].Nome);
+                Console.WriteLine(compra2.Id + ": Teclado");
+
 
                 Console.WriteLine();
-                Console.WriteLine(compra3.Id + ": ");
-                Console.WriteLine(compra3.Produtos[0].Nome);
+                Console.WriteLine(compra3.Id + ": Mouse");
+
 
                 Console.WriteLine();
                 int compraEscolhida = int.Parse(Console.ReadLine());
                 if (compraEscolhida == 1)
-                    {
-                        /*F = D * (0.1 * p) / (P * 0.1) * Q
-                        F: Frete (R$)
-                        D: Distância (km)
-                        p: Peso (kg)
-                        P: Preço (R$)
-                        Q: Quantidade*/
-                        double frete = compra1.Distancia * (0.1 * produto1.Peso) / (produto1.Preco * 0.1) * 1;
-                    }
-                }
-                if (resposta == 3)
                 {
-                    compra1.EfetuarCompra(produtos);
+                    /*F = D * (0.1 * p) / (P * 0.1) * Q
+                    F: Frete (R$)
+                    D: Distância (km)
+                    p: Peso (kg)
+                    P: Preço (R$)
+                    Q: Quantidade*/
+                    compra1.CalcularFrete();
                 }
+                else if (compraEscolhida == 2)
+                {
+                    compra2.CalcularFrete();
+                }
+                else if (compraEscolhida == 3)
+                {
+                    compra3.CalcularFrete();
+                }
+            }
+            else if(resposta == 3)
+            {
+                compra1.EfetuarCompra(produtos);
+            }
         }
     }
 }

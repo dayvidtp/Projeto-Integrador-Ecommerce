@@ -9,7 +9,7 @@
         public double Peso { get; set; }
         public int Quantidade { get; set; }
 
-        public Produto() {}
+        public Produto() { }
 
         public Produto(int id, string nome, string marca, double preco, double peso, int quantidade)
         {
@@ -25,10 +25,11 @@
         {
             Console.Write("Informe o nome do produto: ");
             string nome = Console.ReadLine();
+
             Produto novoProduto = new Produto();
             novoProduto.Nome = nome;
 
-            novoProduto.Id = 4;
+            novoProduto.Id++;
 
             Console.Write("Informe a marca: ");
             string marca = Console.ReadLine();
@@ -36,7 +37,6 @@
 
             Console.Write("Informe o preço: ");
             double preco = double.Parse(Console.ReadLine());
-
             novoProduto.Preco = preco;
 
             novoProduto.Peso = 2.8;
@@ -44,20 +44,11 @@
             Console.Write("Informe a quantidade: ");
             int quantidade = int.Parse(Console.ReadLine());
             novoProduto.Quantidade = quantidade;
-            
             Console.WriteLine("");
             Console.WriteLine($"Nome do produto: {novoProduto.Nome}");
             Console.WriteLine($"Marca do produto: {novoProduto.Marca}");
             Console.WriteLine($"Preço do produto: {novoProduto.Preco}");
-            Console.WriteLine($"Quantidade: {novoProduto.Quantidade}");     
-        
-        
-          }
-        public override string ToString()
-        {
-
-            return $"Produto: {Nome} Preco: {Preco} Marca: {Marca}";
+            Console.WriteLine($"Quantidade: {novoProduto.Quantidade}");
         }
-
     }
 }
